@@ -1,5 +1,9 @@
 #pgzero
 import random
+from pgzero.builtins import Actor, animate, keyboard, keys
+from pgzero.rect import Rect
+from pgzero.screen import Screen
+screen: Screen
 
 WIDTH = 550
 HEIGHT = 600
